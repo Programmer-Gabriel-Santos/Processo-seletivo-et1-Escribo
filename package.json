@@ -1,0 +1,14 @@
+{
+  "name": "escribo",
+  "version": "1.0.0",
+  "description": "Processo seletivo Escribo",
+  "author": "Gabriel Dos Santos",
+  "main": "sum.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/sum.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
