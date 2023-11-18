@@ -11,7 +11,7 @@ const sum = (num) => {
     } else if (num < 0) {
         console.log('\n', '\x1b[31m', 'Por favor, informe um número positivo.', '\n')
         return
-    } else if (!Number.isInteger(num)) {
+    } else if (!Number.isInteger(Number(num))) {
         console.error('\n', '\x1b[31m', 'O número fornecido não é um inteiro.', '\n');
         return;
     }
